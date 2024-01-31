@@ -1,0 +1,101 @@
+body {
+    margin: 0 ;
+}
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: white;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.name {
+    margin: auto;
+    margin-left: 40px;
+}
+.contanier-1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: white;
+}
+.img {
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+    padding: 10px;
+}
+.logo-contanier {
+    margin: 10px;
+}
+button {
+    background-color: rgba(201, 17, 17, 0.753);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+}
+.images {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    
+}
+.one {
+    /*flex: 1;*/
+    width: 100px;
+    height: 100px;
+    border: 10px solid black;
+    border-radius: 3px;}
+.two {
+    /*flex: 2;*/
+    width: 100px;
+    height: 100px;
+    border: 10px solid black;
+    border-radius: 3px;}
+.three {
+    /*flex: 3;*/
+    width: 100px;
+    height: 100px;
+    border: 10px solid black;
+    border-radius: 3px;
+}
+.four {
+    /*flex: 4;*/
+    width: 100px;
+    height: 100px;
+    border: 10px solid black;
+    border-radius: 3px;
+}
+.text {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 0%;
+    padding: 10px;
+}
+.more-content {
+    padding: 10px;
+    margin: 10px;
+}
